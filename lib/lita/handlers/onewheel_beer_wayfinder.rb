@@ -106,7 +106,6 @@ module Lita
           #     remaining: remaining,
               brewery: brewery.to_s,
               name: beer_name.to_s,
-              desc: beer_type.to_s,
               abv: abv.to_f,
               ibu: ibu.to_i,
               desc: beer_desc.to_s,
