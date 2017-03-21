@@ -104,7 +104,7 @@ module Lita
           gimme_what_you_got[tap_name] = {
           #     type: tap_type,
           #     remaining: remaining,
-              brewery: brewery.to_s,
+          #     brewery: brewery.to_s,
               name: beer_name.to_s,
               abv: abv.to_f,
               ibu: ibu.to_i,

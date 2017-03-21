@@ -23,7 +23,7 @@ describe Lita::Handlers::OnewheelBeerWayfinder, lita_handler: true do
 
   it 'shows the taps' do
     send_command 'wayfinder'
-    expect(replies.last).to include("taps: 1) Wayfinder ANDECHS VOLLBIER HELLES LAGER")
+    expect(replies.last).to include('taps: 1) ANDECHS VOLLBIER HELLES LAGER')
   end
 
   it 'displays details for tap 4' do
