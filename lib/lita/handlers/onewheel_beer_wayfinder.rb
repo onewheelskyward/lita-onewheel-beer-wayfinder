@@ -73,7 +73,7 @@ module Lita
         Lita.logger.debug 'parse_response started.'
         gimme_what_you_got = {}
         noko = Nokogiri.HTML response
-        noko.css('div.menus div.menu-item').each_with_index do |beer_node, index|
+        noko.css('div#tap-list-page div.menus div.menu-item').each_with_index do |beer_node, index|
           # gimme_what_you_got
           tap_name = (index + 1).to_s
 
